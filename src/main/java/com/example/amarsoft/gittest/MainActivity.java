@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView() {
         mTextView = (TextView) findViewById(R.id.textView);
+        mTextView.setText("显示功能2");
     }
 }
